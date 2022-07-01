@@ -1,0 +1,133 @@
+.moreinfo {
+  padding: 15px 30px;
+}
+
+.moreinfo .back {
+  width: 100px;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  background-color: var(--header-Background);
+  margin-bottom: 30px;
+}
+
+.moreinfo .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: var(--textColor);
+  font-size: 13px;
+}
+
+.moreinfo .main img {
+  width: 40%;
+}
+
+.moreinfo .main div {
+  width: 40%;
+}
+
+.moreinfo .main div h3 {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.moreinfo .main div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.moreinfo .main div div ul {
+  width: 50%;
+}
+
+.moreinfo .main div div ul li {
+  margin-bottom: 10px;
+}
+
+.moreinfo .main div div ul li span {
+  margin-left: 5px;
+}
+
+.moreinfo .main div .borders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.moreinfo .main div .borders button {
+  width: 80px;
+  height: 20px;
+  margin-bottom: 5px;
+  color: var(--textColor);
+  background-color: var(--header-Background);
+  border: none;
+}
+
+@media only screen and (max-width: 885px) {
+  .moreinfo .main img {
+    width: 40%;
+  }
+  .moreinfo .main div {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .moreinfo .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .moreinfo .main img {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  .moreinfo .main div {
+    width: 75%;
+  }
+  .moreinfo .main div h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 571px) {
+  .moreinfo .main img {
+    width: 100%;
+  }
+  .moreinfo .main div {
+    width: 100%;
+  }
+  .moreinfo .main div h3 {
+    text-align: left;
+    font-size: 19px;
+  }
+  .moreinfo .main div .names {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .moreinfo .main div .names .rightHand {
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=Moreinfo.css.map */

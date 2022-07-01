@@ -1,0 +1,113 @@
+.darkTheme {
+  --header-Background: hsl(209, 23%, 22%);
+  --backgroundBody: hsl(207, 26%, 17%);
+  --textColor: hsl(0, 0%, 100%);
+}
+
+.lightTheme {
+  --header-Background: hsl(0, 0%, 98%);
+  --backgroundBody: hsl(0, 0%, 100%);
+  --textColor: hsl(200, 15%, 8%);
+}
+
+li {
+  list-style: none;
+}
+
+.search {
+  font-size: 16px;
+  padding: 15px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.search input {
+  width: 40%;
+  padding: 13px;
+  border: none;
+  background-color: var(--header-Background);
+  outline: none;
+  color: var(--textColor);
+  font-size: 14px;
+}
+
+.search input::-webkit-input-placeholder {
+  color: var(--textColor);
+}
+
+.search input:-ms-input-placeholder {
+  color: var(--textColor);
+}
+
+.search input::-ms-input-placeholder {
+  color: var(--textColor);
+}
+
+.search input::placeholder {
+  color: var(--textColor);
+}
+
+.search .filter {
+  position: relative;
+  color: var(--textColor);
+  font-size: 13px;
+  min-height: 200px;
+  width: 20%;
+}
+
+.search .filter .filter_click {
+  background-color: var(--header-Background);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.search .filter ul {
+  background-color: var(--header-Background);
+  padding: 10px;
+  display: none;
+  width: 100%;
+  position: absolute;
+}
+
+.search .filter ul li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 621px) {
+  .search input {
+    width: 50%;
+  }
+  .search .filter {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 571px) {
+  .search {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .search input {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .search .filter {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=Search.css.map */

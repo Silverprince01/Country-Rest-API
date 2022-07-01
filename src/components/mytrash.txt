@@ -1,0 +1,36 @@
+<div>
+      {filterCountries.map((country,index)=>{
+        return(
+          <div key={index}>
+ <img src={country.flags.png} alt="" />
+        <div>
+          <h3>{country.name.common}</h3>
+          <p>Population:{country.population}</p>
+          <p>Region:{country.continents}</p>
+          <p>Capital:{country.capital}</p>
+        </div>
+          </div>
+        )
+      })}
+    </div>
+
+    <div>
+        <img src={country.flags.png} alt="" />
+        <div>
+          <h3>{country.name.common}</h3>
+          <p>Population:{country.population}</p>
+          <p>Region:{country.continents}</p>
+          <p>Capital:{country.capital}</p>
+        </div>
+        <hr />
+      </div>
+
+
+
+      handleChange={handleChange}
+       handleClick={handleClick}
+        theme={theme}
+          filterCountries={filterCountries}
+          handleCountry={handleCountry}
+       
+       
