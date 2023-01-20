@@ -1,15 +1,3 @@
-.darkTheme {
-  --header-Background: hsl(209, 23%, 22%);
-  --backgroundBody: hsl(207, 26%, 17%);
-  --textColor: hsl(0, 0%, 100%);
-}
-
-.lightTheme {
-  --header-Background: hsl(0, 0%, 98%);
-  --backgroundBody: hsl(0, 0%, 100%);
-  --textColor: hsl(200, 15%, 8%);
-}
-
 .cardContainer {
   display: -ms-grid;
   display: grid;

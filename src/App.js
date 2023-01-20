@@ -6,7 +6,6 @@ import MoreInfo from "./components/MoreInfo";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
 import "./App.css";
 import "./Styles/Header.css";
 import "./Styles/Search.css"
